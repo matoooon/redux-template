@@ -1,0 +1,10 @@
+<div>
+  <p>Estado de productos</p>
+  <pre> {{stateMovies | json}} </pre>
+
+</div>
+
+<div>
+  <input type="text" name="inputSearch" [formControl]="inputSearch"/>
+  <button (click)="getProducts()">Cargar Peliculas</button>
+</div>
